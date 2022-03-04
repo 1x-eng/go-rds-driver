@@ -2,9 +2,10 @@ package rds_test
 
 import (
 	"database/sql"
-	"github.com/krotscheck/go-rds-driver"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/1x-eng/go-rds-driver"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 //go:generate mockgen -package rds_test -destination client_mocks_test.go . AWSClientInterface

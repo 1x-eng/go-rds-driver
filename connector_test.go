@@ -2,10 +2,11 @@ package rds_test
 
 import (
 	"context"
-	"github.com/golang/mock/gomock"
-	"github.com/krotscheck/go-rds-driver"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/1x-eng/go-rds-driver"
+	"github.com/golang/mock/gomock"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_Connector(t *testing.T) {

@@ -4,10 +4,11 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"github.com/golang/mock/gomock"
-	"github.com/krotscheck/go-rds-driver"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/1x-eng/go-rds-driver"
+	"github.com/golang/mock/gomock"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_Connection(t *testing.T) {

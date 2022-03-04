@@ -1,4 +1,4 @@
-module github.com/krotscheck/go-rds-driver
+module github.com/1x-eng/go-rds-driver
 
 go 1.17
 
@@ -35,3 +35,5 @@ require (
 	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
 	golang.org/x/text v0.3.6 // indirect
 )
+
+replace github.com/krotscheck/go-rds-driver => github.com/1x-eng/go-rds-driver v0.5.1
